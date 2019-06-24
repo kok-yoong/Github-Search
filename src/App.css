@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+/*.has-search .form-control {
+  padding-left: 2.375rem;
+  background-image: url(search.png)
+  
+}*/
+
+input.form-control{    
+  background: url("search.png")  right     no-repeat;
+   height:36px;
+  }
+
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination span{
+  color: black;
+  float: left;
+  padding: 8px 8px;
+  text-decoration: none;
+  transition: background-color .3s;
+  /*border: 1px solid #ddd;*/
+  margin: 0 4px;
+}
+
+.pagination a {
+  border-radius: 4px;
+  color: black;
+  float: left;
+  padding: 6px 12px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.pagination area.inactive{
+  background-color: #e9e8e8;
+}
+
+.pagination a.inactive:hover{
+  background-color: #e9e8e8;
+
+}
+
+.pagination a.active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+.pagination a:hover {background-color: #007bff;}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
