@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Dependencies
+axios 0.19.0
+moment 2.24.0
+
 ## Available Scripts
 
 In the project directory, you can run:
