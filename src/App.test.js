@@ -9,10 +9,3 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-it('check keyword',()=>{
-const query = "asp.net"
-//expect
-
-
-
-});
